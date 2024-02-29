@@ -1,0 +1,32 @@
+repo_name: zaknbur/web-scrape
+report_id: 603ba6fc6fc9decf8f4c70361d878f2d
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:52:29+00:00'
+requested_by: zaknbur
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/zaknbur/web-scrape
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/zaknbur/web-scrape/blob/main/.github/workflows/scrape.yml
+  detection_source: ".github/workflows/scrape.yml"
+  last_updated_by: Micky Allen
+  last_updated_on: 2022-10-12 19:23:58.000000000 Z
